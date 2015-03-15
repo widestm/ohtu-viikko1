@@ -89,7 +89,7 @@ public class VarastoTest {
     public void JosOtetaanNegatiivistaSaldoEiMuutu(){
         varasto.lisaaVarastoon(10);
 
-        assertEquals(0.0, varasto.otaVarastosta(-100),vertailuTarkkuus);
+        assertEquals(1000, varasto.otaVarastosta(-100),vertailuTarkkuus);
     }
 
     @Test
