@@ -92,6 +92,8 @@ public class VarastoTest {
         assertEquals(0.0, varasto.otaVarastosta(-100),vertailuTarkkuus);
     }
 
+
+    
     @Test
     public void konstr() {
         varasto = new Varasto(-1);
